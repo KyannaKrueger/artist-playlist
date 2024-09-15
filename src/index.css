@@ -1,0 +1,36 @@
+body {
+  background-color: #ffcfeb;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+img {
+  height: 20rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.albums {
+  padding: 5rem;
+
+}
+
+details > summary {
+  padding: 2px 6px;
+  width: 17em;
+  background-color: rgb(255, 237, 244);
+  cursor: pointer;
+}
+
+li:hover {
+background-color: #cde1ff;
+}
